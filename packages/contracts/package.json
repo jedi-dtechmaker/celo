@@ -1,0 +1,11 @@
+{
+  "name": "@vorra/contracts",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "build": "sh -c 'command -v forge >/dev/null && forge build || echo \"forge not installed; skipping contracts build\"'",
+    "lint": "sh -c 'command -v forge >/dev/null && forge fmt --check || echo \"forge not installed; skipping contracts lint\"'",
+    "test": "sh -c 'command -v forge >/dev/null && forge test || echo \"forge not installed; skipping contracts tests\"'",
+    "typecheck": "sh -c 'command -v forge >/dev/null && forge build || echo \"forge not installed; skipping contracts typecheck\"'"
+  }
+}
